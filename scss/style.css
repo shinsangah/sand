@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script:wght@600&family=Questrial&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -17,6 +18,7 @@ a {
 body {
   background-color: black;
 }
+
 body a {
   color: #eee;
 }
@@ -30,36 +32,45 @@ header {
   padding: 5vh 5vw;
   z-index: 2;
 }
+
 header h1 a {
   font: bold 50px/50px "Abril Fatface";
   font-weight: 10;
   color: rgb(231, 220, 220);
 }
+
 header #gnb {
   display: flex;
 }
+
 header #gnb li {
   margin: 0px 40px;
 }
+
 header #gnb li a {
   font: 20px/1 "Abril Fatface";
   font-weight: 5;
   color: #eee;
   letter-spacing: 1px;
 }
+
 header .sns {
   display: flex;
 }
+
 header .sns li {
   margin: 0 7px;
 }
+
 header .sns li a {
   font-size: 20px;
   color: #eee;
 }
+
 header #snb {
   display: none;
 }
+
 header .btn-menu {
   font-size: 30px;
   display: none;
@@ -75,35 +86,42 @@ figure {
   overflow: hidden;
   z-index: 1;
 }
+
 figure video {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
+
 figure .text {
   position: absolute;
   left: 6vw;
   top: 50%;
   translate: 0, -50%;
 }
+
 figure .text p {
   font: lighter 6vw/1 "Abril Fatface";
   color: rgb(253, 251, 251);
 }
+
 figure .text ul {
   display: flex;
   margin-top: 30px;
 }
+
 figure .text ul li {
   margin: 0px 30px;
 }
+
 figure .text ul li i {
   font-size: 20px;
   color: rgb(253, 251, 251);
   margin-right: 10px;
   padding: 20px 0px;
 }
+
 figure .text ul li strong {
   font: 20px/1 "Abril Fatface";
   color: rgb(253, 251, 251);
@@ -127,12 +145,15 @@ footer {
   header #gnb {
     display: none;
   }
+
   header .sns {
     display: none;
   }
+
   header #snb {
     display: block;
   }
+
   header #snb .sub-menu {
     position: absolute;
     right: 5vw;
@@ -142,22 +163,29 @@ footer {
     padding: 10px 25px;
     transition: 0.4s;
   }
+
   header #snb .sub-menu.hide {
     opacity: 0;
   }
+
   header #snb .sub-menu li {
     padding: 10px 0;
     color: #eee;
     font: 16px/1 "Abril Fatface";
   }
+
   header #snb .sub-menu li a i {
     margin-left: 11px;
   }
+
   header .btn-menu {
     display: block;
     color: rgb(231, 220, 220);
   }
+
   figure .text p {
     font-size: 15vw;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
